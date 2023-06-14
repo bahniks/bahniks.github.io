@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  function randomRedirect() {
+    const links = [
+      'https://forms.gle/6K4QVnFyixhpvz999',
+      'https://forms.gle/Q8npihQS4tusZiju7',
+      'https://forms.gle/z7xgf5GzfwjN4hgA6',
+      'https://forms.gle/xRpGGe3zGCTCmfXb9'        
+    ];
+
+    const randomIndex = Math.floor(Math.random() * links.length);
+
+    window.location.href = links[randomIndex];
+  }
+
+  window.addEventListener('load', randomRedirect);
+</script>
+</head>
+<body>
+    <p>Prosím počkejte, než budete přesměrováni.</p>
+</body>
+</html>
